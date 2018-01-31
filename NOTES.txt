@@ -1,0 +1,10 @@
+need to reinclude the BSD wars.
+need to include origins of Linux.
+not sure what weeks those should go in
+need to setup dir for sample files for work
+need to figure out how much admin stuff to do
+
+i promised to add in the advanced sed and awk slides, can probably steal from linux3, or the old, old archives, if the CVS server can be resurrected.
+Need to link to a vi cheatsheet and to the o'reilly books.
+
+Need a mention on the role of login shells -- maybe that should be first slide.

@@ -8,3 +8,7 @@ i promised to add in the advanced sed and awk slides, can probably steal from li
 Need to link to a vi cheatsheet and to the o'reilly books.
 
 Need a mention on the role of login shells -- maybe that should be first slide.
+
+week2 ran too long, move find to week3.   week2 would've gone easier if we'd
+gone through config files and hierarchy.   Maybe some of that could be incorporated in, instead of sudo.
+

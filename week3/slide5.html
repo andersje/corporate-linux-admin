@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="../class_format.css" />
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<title>Class 3:  The VAS difference</title>
+</head>
+<body>
+<ul class="lectureslide">
+<li>Linux can directly integrate with AD via PAM</li>
+<li>We buy Dell/Qwest VAS</li>
+<li>all AD stuff must be queried thru VAS</li>
+<li>/opt/quest/bin/vastool -u host/ attrs USERNAME [thing]</li>
+<li>better way is to use the keytab, but i'm lazy, so i don't<li>
+<li>only works from AD-joined boxes</li>
+<li>check VAS status:  /opt/quest/bin/vastool -u host/ info domain</li>
+<li>if not joined, you're in trouble</li>
+<li>Mitchell probably has notes on using keytab, but i could not find them in the wiki</li>
+
+<a class="pagelink" href="slide6.html">NEXT</a><br />
+
+<a class="pagelink" href="slide4.html">PREVIOUS</a><br />
+
+<a class="pagelink" href="../index.html">Master Index</a><br />
+
+</body>
+</html>

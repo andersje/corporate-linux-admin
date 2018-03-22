@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="../class_format.css" />
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<title>Linux Admin 1 Lab for week 11 (shell scripting)</title>
+<script> (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-77508642-1', 'auto'); ga('send', 'pageview'); </script> 
+</head>
+<body>
+<h4>Name:</h4><h4>class section:</h4><ol class='worksheet'>
+<li>(2 points) Create a shell script called <span class='unix'>lstmp</span> which contains the command to do a long listing of <span class='unix'>/tmp</span>. Show the contents of your script here:<br /><br /><br /></li>
+<li> What command did you use to add execute permission to <span class='unix'>lstmp</span>?</li>
+<li>(3 points) Create a shell script called <span class='unix'>corefind</span> which runs a find command across the entire filesystem to locate files named <span class='unix'>core</span>. Show the contents of the shell script here:<br /><br /></li>
+<li>(3 points) Create a shell script to display names and UIDs from the /etc/passwd file. Hint: The cut or awk command will prove very useful here. Show the contents of the shell script here:<br /><br /></li>
+<li> Show the syntax of the command to check your PATH: </li>
+<li> What is the first directory in your PATH?</li>
+<li> What does the first line (<span class='unix'>#!/bin/bash</span> ) do in a shell script?</li>
+<li> What are two ways to give all users execute permission on a file?</li>
+<li>(4 points) Write a shell script to grab all lines which contain the string <span class='unix'>ssh</span> from <span class='unix'>/var/log/messages</span>, sort them alphabetically, and then put them into a file called <span class='unix'>/ssh.mesg</span>.  Show the contents of the script here:<br /><br /><br /></li>
+<li>(4 points) Write a shell script which completes the following sentence, filling the first blank with the first argument, and the second blank with the second argument to the shell script:<br />
+	I like __________ Jell-O with chopped bits of ________ best<br />.  Show contents of the script here:<br /><br /><br /></li>
+<li>Using the let command, set the variable SUM_1 equal to the sum of 14, 25 and 321. Show the command(s) you entered, and the result:<br /><br /></li>
+<li>Show the syntax of the command to set the shell variable MAX_STUDENTS equal to 24:<br /><br /></li>
+<li>(2 points) Write a shell script that will check the shell variable MAX_STUDENTS, and print out the message 'sorry, that is too many' if it is 25 or more:<br /><br /><br /><br /></li>
+<li>(EXTRA CREDIT, 6 points) Create a shell script which will print the phrase 'I like Linux' in the middle of the screen, pause 5 seconds, clear the screen, and print 'I cannot wait to work with it full time'. It should then keep that message on the screen for 5 more seconds, clear the screen and exit. You may find the sleep, tput and clear commands to be useful.  Show your shell script here:<br /></li>
+
+</body>
+</html>

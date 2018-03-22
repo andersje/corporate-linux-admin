@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="../class_format.css" />
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<title>Linux Admin 1 Lab for week 12 (shell scripting)</title>
+<script> (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-77508642-1', 'auto'); ga('send', 'pageview'); </script> 
+</head>
+<body>
+<h4>Name:</h4><h4>class section:</h4><ol class='worksheet'>
+<p>the file <a href='listitems.txt'>http://www.linux-classes.com/ccis1121-1/labs/listitems.txt</a> should be downloaded and saved in the same directory that you are writing your shell scripts.  This will provide the sample data for your first few shell scripts</p>
+<li>what command will add the variables 'sum' and 'newval' together, and put the results in to 'sum'?<p /></li>
+<li>what command will display only the second column from listitems.txt?</li>
+<li>what command will display the contents of the variable 'sum'?<br /></li>
+<li>(5 points) Create a shell script which uses a for loop to compute the sum of the second column of the listitems.txt file:<br /><p /><br /></li>
+<li>What command will display only the 5th column of a line?<br /></li>
+<li>Using the above command and a pipe, combine it with the <span class='unix'>ls -l</span> command such that only filesizes are displayed.<br /><br /></li>
+<li>(5 points) Create a shell script wherein the previous command is combined with a for loop such that a sum of all filesizes in the current directory are displayed.<br /><p /><br /><p /></li>
+<li>(3 points) Make a copy of the above shell script and alter it so that it takes a directory name as the first argument, and computes the sum of all filesizes in that directory.<br /><p /><br /></li>
+<li>(4 points) Alter the answer to the previous question such that it does not include directories in its calculations (using <span class='unix'>grep -v</span> might prove quite useful)<br /><p /><br /></li>
+<li>(7 points Extra Credit) Alter the above shell script so that it takes a second argument, which can be a file suffix (e.g. <span class='unix'>.txt</span>.  IF the second argument is present, it will include only those types of files in the sum.  If the second argument is not present, it will simply look at all files(just like it did in the previous question)</li>
+
+</body>
+</html>

@@ -13,11 +13,10 @@
 <ul class="lectureslide">
 <li>$? contains the return code of the most recent command</li>
 <li><span class='unix'>PREVCOMM=$?<br />
-if [[ $PREVCOMM -ne 0 ]]; then
-  echo "whoa, something failed"
-  exit 1
-fi 
-</span></li>
+if [[ $PREVCOMM -ne 0 ]]; then <br/>
+  echo "whoa, something failed" <br/>
+  exit 1 <br/>
+fi </span></li>
 <li>old school check to see if a variable is defined:<br />
 <span class='unix'>if [[ $MYVAR"x" == "x" ]]; then</span></li>
 <li>variables with interesting characters inside:<br/>

@@ -1,0 +1,7 @@
+fred	7
+wilma	3
+betty	26
+barney	9
+bambam	44
+pebbles	31
+stoney	11
